@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+    h1, h2, h3, h4, h5, h6 {
+      @apply font-bold
+    
+    }
+    h1{
+      @apply  sm:text-3xl md:text-3xl
+    }
+    h2{
+      @apply text-3xl sm:text-3xl
+    }
+}
+
+.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop{
+  background-color: transparent;
+}
+.css-i3xia6{
+  border:1 !important;
+  box-shadow: none;
+  border-color: rgb(238, 238, 238);
+}
